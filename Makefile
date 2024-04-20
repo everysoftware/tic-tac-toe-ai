@@ -5,3 +5,7 @@ format:
 .PHONY: freeze
 freeze:
 	pip freeze > requirements.txt
+
+.PHONY: run
+run:
+	python -m src
